@@ -32,54 +32,30 @@ main .container{
   margin-top: 5vh;
   text-align: center;
 }
+/* in section sistemiamo il quadro delle foto */
+main .section{
+  border: 1px solid black;
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  width:40vw;
+  border-radius: 10vh;
+  margin: 2vh;
+  position: relative;
+  display: inline-block;
+}
 /* nelle section(uno, due, tre, quatro) sistemiamo le foto */
 main .section.uno{
-  border: 1px solid black;
   background-image: url(mimi.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 45vh;
-  width:40vw;
-  border-radius: 10vh;
-  margin: 2vh;
-  position: relative;
-  display: inline-block;
 }
 main .section.due{
-  border: 1px solid black;
   background-image: url(bs.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 45vh;
-  width:40vw;
-  border-radius: 10vh;
-  margin: 2vh;
-  position: relative;
-  display: inline-block;
 }
 main .section.tre{
-  border: 1px solid black;
   background-image: url(bucuresti.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 45vh;
-  width:40vw;
-  border-radius: 10vh;
-  margin: 2vh;
-  position: relative;
-  display: inline-block;
 }
 main .section.quattro{
-  border: 1px solid black;
   background-image: url(giurgiu.jpg);
-  background-size: cover;
-  background-position: center;
-  height: 45vh;
-  width:40vw;
-  border-radius: 10vh;
-  margin: 2vh;
-  position: relative;
-  display: inline-block;
 }
 /* Creiamo la scritta con il nome della citta per tutte le foto */
 main .section .testo{
