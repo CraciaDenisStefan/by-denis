@@ -95,3 +95,17 @@ main .section .layer{
   height: 100%;
   width:100%;
 }
+
+footer{
+  background-color: rgba(255, 0, 0, 0.5);
+  text-align: center;
+  font-size: 2vh;
+  font-family: fantasy;
+  color: rgba(255, 0, 0, 0.5);
+}
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
