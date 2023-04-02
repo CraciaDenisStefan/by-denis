@@ -23,3 +23,75 @@ header .container .titolo{
   font-style: oblique;
   color: rgba(255, 0, 0, 0.4);
 }
+
+main .container{
+  width: 90vw;
+  margin: auto;
+  margin-top: 5vh;
+  text-align: center;
+}
+main .section.uno{
+  border: 1px solid black;
+  background-image: url(mimi.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  width:40vw;
+  border-radius: 10vh;
+  margin: 2vh;
+  position: relative;
+  display: inline-block;
+}
+main .section.due{
+  border: 1px solid black;
+  background-image: url(bs.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  width:40vw;
+  border-radius: 10vh;
+  margin: 2vh;
+  position: relative;
+  display: inline-block;
+}
+main .section.tre{
+  border: 1px solid black;
+  background-image: url(bucuresti.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  width:40vw;
+  border-radius: 10vh;
+  margin: 2vh;
+  position: relative;
+  display: inline-block;
+}
+main .section.quattro{
+  border: 1px solid black;
+  background-image: url(giurgiu.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+  width:40vw;
+  border-radius: 10vh;
+  margin: 2vh;
+  position: relative;
+  display: inline-block;
+}
+main .section .testo{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1vh;
+  color: rgb(255, 255, 255);
+  font-size: 3vh;
+  padding: 1vh;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+main .section .layer{
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 10vh;
+  height: 100%;
+  width:100%;
+}
