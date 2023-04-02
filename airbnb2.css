@@ -3,3 +3,23 @@
   margin: 0;
 }
 
+header .container{
+  background-color: rgba(255, 0, 0, 0.5);
+  width: 100vw;
+  height: 10vh;
+  position: relative;
+}
+header .container .logo{
+  height: 8vh;
+  position: absolute;
+  left:0;
+  top: 1vh;
+}
+header .container .titolo{
+  position: absolute;
+  left: 30%;
+  line-height: 10vh;
+  font-size: 4vh;
+  font-style: oblique;
+  color: rgba(255, 0, 0, 0.4);
+}
