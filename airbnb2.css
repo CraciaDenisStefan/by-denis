@@ -3,6 +3,7 @@
   margin: 0;
 }
 
+/* Nel header sistemiamo il logo la scritta e il background */
 header .container{
   background-color: rgba(255, 0, 0, 0.5);
   width: 100vw;
@@ -24,12 +25,14 @@ header .container .titolo{
   color: rgba(255, 0, 0, 0.4);
 }
 
+/* Nel main , prima cosa creaiamo un container per definire dove andremmo a lavorare */
 main .container{
   width: 90vw;
   margin: auto;
   margin-top: 5vh;
   text-align: center;
 }
+/* nelle section(uno, due, tre, quatro) sistemiamo le foto */
 main .section.uno{
   border: 1px solid black;
   background-image: url(mimi.jpg);
@@ -78,6 +81,7 @@ main .section.quattro{
   position: relative;
   display: inline-block;
 }
+/* Creiamo la scritta con il nome della citta per tutte le foto */
 main .section .testo{
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 1vh;
@@ -89,6 +93,7 @@ main .section .testo{
   left: 50%;
   transform: translate(-50%,-50%);
 }
+/* creaiamo un layer da mettere sulle foto come filtro */
 main .section .layer{
   background-color: rgba(255, 0, 0, 0.1);
   border-radius: 10vh;
@@ -96,6 +101,7 @@ main .section .layer{
   width:100%;
 }
 
+/* nel footer sistemiamo il background la scritta e il sito dove mandare gli utenti */
 footer{
   background-color: rgba(255, 0, 0, 0.5);
   text-align: center;
